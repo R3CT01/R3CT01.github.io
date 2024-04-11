@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="plugin.program.streamx" name="[COLOR limegreen]Streamx[/COLOR]Wizard" version="1.0.0" provider-name="drinfernoo, slamious">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+        <import addon="script.speedtester" optional="true" version="1.1.2" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR limegreen]Streamx[/COLOR]Wizard</summary>
+        <description lang="en">[COLOR limegreen]Streamx[/COLOR]Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source>https://github.com/R3CT01/R3CT01.github.io</source>
+        <news>
+1.0.0
+ - Initial Commit
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon><addon id="repository.streamxmedia" name="R3CT.github.io" version="1.0.0" provider-name="R3CT01">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/R3CT01/R3CT01.github.io/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/R3CT01/R3CT01.github.io/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/R3CT01/R3CT01.github.io/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>R3CT01.github.io</summary>
+        <description>StreamX Media Official Repo</description>
+        <disclaimer>We are not liable for anything uploaded to our services due to the fact that our server has public access and open to the general public</disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon></addons>
