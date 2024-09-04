@@ -1,6 +1,6 @@
 name="Kodi Netflix Build"
 version="1.0.2"
-url="https://www.dropbox.com/scl/fi/yg11qa2eab02vukes8uc5/kodinetflixbuild-1.2.zip?rlkey=spefmyn0tcq576efeq8snd2ep&st=65i9k3gt&dl=1"
+url="https://www.dropbox.com/scl/fi/gqpmvvrzy1vtv3p0g3qg2/kodinetflixbuild-1.3.zip?rlkey=dvbpi12xfedaiytlvc4pjs5lu&st=kt14yce7&dl=1"
 minor="http://"
 gui="url.to.guisettings"
 kodi="20"
